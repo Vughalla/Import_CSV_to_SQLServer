@@ -1,0 +1,18 @@
+2020-11-13_13:55:54 Inicia el proceso Orquestador.
+2020-11-13_13:55:54 Inicia el proceso de descarga del documento CSV.
+2020-11-13_13:55:56 Descarga finalizada.
+2020-11-13_13:55:56 Se insertaran 300 registros del documento descargado.
+2020-11-13_13:55:56 Inicia el proceso de carga a la BD.
+2020-11-13_13:55:56 2020-11-13_rdy_to_load.csv
+2020-11-13_13:55:56 Inicia la ejecucion del SQL 00_csv_to_stg.sql
+2020-11-13_13:55:56 (300 rows affected)
+2020-11-13_13:55:56 Ejecucion del archivo 00_csv_to_stg.sql finalizada.
+2020-11-13_13:55:56 Inicia la ejecucion del SQL 01_stg_to_dl.sql
+2020-11-13_13:55:56 (300 rows affected)
+2020-11-13_13:55:56 Ejecucion del archivo 01_stg_to_dl.sql finalizada.
+2020-11-13_13:55:56 Inicia la ejecucion del SQL 02_drop_duplicate_dl.sql
+2020-11-13_13:55:56 (2068 rows affected)
+2020-11-13_13:55:56 Ejecucion del archivo 02_drop_duplicate_dl.sql finalizada.
+2020-11-13_13:55:56 Finaliza el proceso de carga a la BD.
+2020-11-13_13:55:56 Los documentos input se moveran a la ruta /OUTPUT.
+2020-11-13_13:55:56 Finaliza el proceso Orquestador.

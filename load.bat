@@ -1,0 +1,1 @@
+sqlcmd -S %1 -v PATH_INPUT="%2" -v csvFile="%3" -i "%4/%5" >> "%6/sql_temp.log" 2>&1
